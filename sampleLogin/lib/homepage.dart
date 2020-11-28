@@ -18,7 +18,7 @@ class _HomePageState extends State<HomePage> {
       body: Container(
         child: Column(children: [
           SizedBox(
-            height: screenheight / 2,
+            height: screenheight/2,
           ),
           customButton("Sign out", signOut),
         ]),
